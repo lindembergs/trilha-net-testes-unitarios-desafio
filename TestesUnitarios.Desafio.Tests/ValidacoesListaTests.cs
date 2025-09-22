@@ -4,7 +4,7 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesListaTests
 {
-    private ValidacoesLista _validacoes = new ValidacoesLista();
+    private ValidacoesLista _validacoes = new();
 
     [Fact]
     public void DeveRemoverNumerosNegativosDeUmaLista()
@@ -56,7 +56,7 @@ public class ValidacoesListaTests
         // Arrange
         var lista = new List<int> { 5, 7, 8, 9 };
         var resultadoEsperado = new List<int> { 10, 14, 16, 18 };
-        
+
         // Act
 
         // Assert
